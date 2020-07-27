@@ -41,3 +41,34 @@ Install Microsoft Teams Toolkit from the **Extensions** tab on the left side bar
       `npm install`
    
       `npm start`
+
+## Implement [Microsoft Graph Toolkit](https://cda.ms/1tV)
+
+Add a new file under **src** folder and name as **Auth.js**.
+
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './components/App';
+import { Provider, themes } from '@fluentui/react-northstar' //https://fluentsite.z22.web.core.windows.net/quick-start
+
+ReactDOM.render(
+    <Provider theme={themes.teams}>
+        <App />
+    </Provider>, document.getElementById('auth')
+);
+```
+
+Add a new file under **public** folder and name as **auth.html**. `CTRL+SPACE` for adding HTML Sample. Add below code in `<body></body>`
+
+```
+<div id="auth"></div>
+<script src="https://unpkg.com/@microsoft/teams-js/dist/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+<script>
+  mgt.TeamsProvider.handleAuth();
+</script>
+```
+
+
