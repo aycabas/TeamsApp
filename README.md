@@ -37,5 +37,7 @@ Install Microsoft Teams Toolkit from the **Extensions** tab on the left side bar
    ![Microsoft Teams Toolkit Extension for Visual Studio Code](/Images/04.PNG)
    
    * Open Terminal and run:
-   `npm install`
-   `npm start`
+   
+      `npm install`
+   
+      `npm start`
