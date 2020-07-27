@@ -1,31 +1,25 @@
-# Tabs
+# Using Microsoft Graph Toolkit in Microsoft Teams Tabs
 
-Tabs are Teams-aware webpages embedded in Microsoft Teams. Personal tabs are scoped to a single user. They can be pinned to the left navigation bar for easy access.
+## Content:
 
-## Prerequisites
--  [NodeJS](https://nodejs.org/en/)
+1. Enable [Microsoft Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension for Visual Studio Code
+1. Build Microsoft Teams tab
+1. Implement [Microsoft Graph Toolkit](https://cda.ms/1tV):
+    * [Login component](https://cda.ms/1tX): login button to authenticate a user with the Microsoft Identity platform
+    * [Teams provider](https://cda.ms/1tY): Microsoft Teams tab to facilitate authentication
+    * [Agenda component](https://cda.ms/1tZ): displays events in a user or group's calendar
+1. Setup [ngrok](https://ngrok.com/docs#getting-started-authtoken) for tunneling
+1. Register your app in Azure Active Directory
+1. Import your app manifest to Microsoft Teams App Studio for testing    
+    
+## Enable [Microsoft Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension for Visual Studio Code
 
--  [M365 developer account](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant) or access to a Teams account with the appropriate permissions to install an app.
+Install Microsoft Teams Toolkit from the **Extensions** tab on the left side bar in Visual Studio Code. For more information, [Microsoft Teams Toolkit: Setup and Overview](https://quickbites.dev/2020/06/25/microsoft-teams-toolkit-setup/).
 
-## Build and Run
+![Microsoft Teams Toolkit Extension for Visual Studio Code](/Images/01.png)
 
-In the project directory, execute:
+## Build Microsoft Teams tab
 
-`npm install`
+1. Select Microsoft Teams icon on the left side bar in Visual Studio Code and sign in.
 
-`npm start`
-
-## Deploy to Teams
-
-**Launch app from VS Code**
-- Prerequisites:
-  - [Add a trusted certificate for localhost](https://aka.ms/teams-toolkit-trusted-cert)
-  - [Enable Teams developer preview mode](https://aka.ms/teams-toolkit-enable-devpreview)
-
-- Navigate to the activity bar on the left side of the Visual Studio Code window.
-- Select the Run icon to display the Run and Debug view.
-- You can also use the keyboard shortcut Ctrl+Shift+D. 
-
-**Upload app from the Teams client**
-- You can also upload the `Development.zip` from the *.publish* folder to Teams.
-  - [Upload a custom app](https://aka.ms/teams-toolkit-uploadapp) 
+![Microsoft Teams Toolkit Extension for Visual Studio Code](/Images/02.png)
