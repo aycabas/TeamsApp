@@ -20,6 +20,14 @@ Install Microsoft Teams Toolkit from the **Extensions** tab on the left side bar
 
 ## Build Microsoft Teams tab
 
-1. Select Microsoft Teams icon on the left side bar in Visual Studio Code and sign in.
+1. Select Microsoft Teams icon on the left side bar in Visual Studio Code and **Sign in**.
 
-![Microsoft Teams Toolkit Extension for Visual Studio Code](/Images/02.png)
+   ![Microsoft Teams Toolkit Extension for Visual Studio Code](/Images/02.png)
+   
+1. Select **Create a new Teams app**, 
+   * Give a name for the app 
+   * Choose **Tab** for the capability
+   * Select **Next**
+   
+   ![Microsoft Teams Toolkit Extension for Visual Studio Code](/Images/03.png)
+   ![Microsoft Teams Toolkit Extension for Visual Studio Code](/Images/04.PNG)
