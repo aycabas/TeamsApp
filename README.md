@@ -71,4 +71,12 @@ Add a new file under **public** folder and name as **auth.html**. `CTRL+SPACE` f
 </script>
 ```
 
+Add below dode in **index.html** `<body></body>`
 
+```
+ <script src="https://unpkg.com/@microsoft/teams-js/dist/MicrosoftTeams.min.js" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+ <mgt-teams-provider client-id="client-id" auth-popup-url="auth-popup-url/auth.html"></mgt-teams-provider> 
+ <mgt-login></mgt-login>
+```  
+    
