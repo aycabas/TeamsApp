@@ -139,9 +139,29 @@ Add below code in **index.html** `<body></body>`
 
    ![Ngrok Setup](/Images/12.PNG)
    
-   [Ngrok Setup](/Images/13.png)
+   ![Ngrok Setup](/Images/13.png)
    
 ## Import your app manifest to Microsoft Teams App Studio for testing
 
+1. Go to [Microsoft Teams](https://teams.microsoft.com), open **App Studio > Manifest Editor** and select **Import an existing app**.
+   
+   ![Ngrok Setup](/Images/14.png)
+   
+1. Select **Development.zip** under **your project folder > .publish**.
 
+   ![Ngrok Setup](/Images/15.png)
+
+1. Scroll down and select **Test and distribute**, then click **Install** and **Add** your app.
+
+   ![Ngrok Setup](/Images/16.png)
+   
+   ![Ngrok Setup](/Images/17.png)
+   
+1. Click on **Sign in** for the authentication and give consent to AAD registered app you created.
+
+   ![Ngrok Setup](/Images/18.png)
+   
+1. Your profile information `e-mail`, `name` and calendar should appear in your tab after the successful authentication.
+
+   ![Ngrok Setup](/Images/20.PNG)
    
