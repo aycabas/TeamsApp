@@ -1,8 +1,8 @@
-# Building straightforward authentication using Microsoft Graph Toolkit in Teams Tabs
+# Handling authentication easily in custom Teams tabs using Microsoft Graph Toolkit 
 
-If you are looking for ways to build easy authentication in [Microsoft Teams Tabs](https://cda.ms/1vt), we are going to use [Microsoft Graph Toolkit](https://cda.ms/1vw) [Login](https://cda.ms/1vx) component provides a button and flyout control to facilitate Microsoft identity platform authentication with couple of lines of code.
+If you are looking for ways to build easy authentication in [Microsoft Teams custom tab development](https://cda.ms/1vt), [Microsoft Graph Toolkit](https://cda.ms/1vw) [Login](https://cda.ms/1vx) component provides a button and flyout control to facilitate Microsoft identity platform authentication with couple of lines of code.
 
-## How?
+## How to build a tab with straightforward authentication flow?
 
 1. Enable [Microsoft Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension for Visual Studio Code
 1. Build Microsoft Teams tab
