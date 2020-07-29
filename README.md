@@ -46,7 +46,7 @@ Install Microsoft Teams Toolkit from the **Extensions** tab on the left side bar
 
 ## Implement [Microsoft Graph Toolkit](https://cda.ms/1tV)
 
-Add a new file under **src** folder and name as **Auth.js**.
+Add a new file under **src** folder and name it as **Auth.js**.
 
 ```
 import React from 'react';
