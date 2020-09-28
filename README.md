@@ -41,6 +41,8 @@ Install Microsoft Teams Toolkit from the **Extensions** tab on the left side bar
    * Open Terminal and run:
    
       `npm install`
+      
+      `npm install @microsoft/mgt @microsoft/teams-js`
    
       `npm start`
 
