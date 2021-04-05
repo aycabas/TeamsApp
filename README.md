@@ -4,7 +4,7 @@ If you are looking for ways to build easy authentication in [Microsoft Teams cus
 
 ## How to build a tab with straightforward authentication flow?
 
-1. Enable [Microsoft Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension for Visual Studio Code
+1. Enable [Microsoft Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension&WT.mc_id=m365-0000-aycabas) extension for Visual Studio Code
 1. Build Microsoft Teams tab
 1. Implement [Microsoft Graph Toolkit](https://cda.ms/1tV):
     * [Login component](https://cda.ms/1tX): login button to authenticate a user with the Microsoft Identity platform
@@ -14,7 +14,7 @@ If you are looking for ways to build easy authentication in [Microsoft Teams cus
 1. Register your app in Azure Active Directory    
 1. Import your app manifest to Microsoft Teams App Studio for testing    
     
-## Enable [Microsoft Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension) extension for Visual Studio Code
+## Enable [Microsoft Teams Toolkit](https://marketplace.visualstudio.com/items?itemName=TeamsDevApp.ms-teams-vscode-extension&WT.mc_id=m365-0000-aycabas) extension for Visual Studio Code
 
 Install Microsoft Teams Toolkit from the **Extensions** tab on the left side bar in Visual Studio Code. For more information, [Microsoft Teams Toolkit: Setup and Overview](https://quickbites.dev/2020/06/25/microsoft-teams-toolkit-setup/).
 
@@ -117,7 +117,7 @@ Add below code in **index.html** `<body></body>`
    
 ## Register your app in Azure Active Directory
 
-1. Go to [Azure Portal](https://portal.azure.com), then **Azure Active Directory > App Registration** and select **New Registration**.
+1. Go to [Azure Portal](https://portal.azure.com/?WT.mc_id=m365-0000-aycabas), then **Azure Active Directory > App Registration** and select **New Registration**.
 
    ![Ngrok Setup](/Images/09.PNG) 
 
@@ -147,7 +147,7 @@ Add below code in **index.html** `<body></body>`
    
 ## Import your app manifest to Microsoft Teams App Studio for testing
 
-1. Go to [Microsoft Teams](https://teams.microsoft.com), open **App Studio > Manifest Editor** and select **Import an existing app**.
+1. Go to [Microsoft Teams](https://teams.microsoft.com/?WT.mc_id=m365-0000-aycabas), open **App Studio > Manifest Editor** and select **Import an existing app**.
    
    ![Ngrok Setup](/Images/14.png)
    
